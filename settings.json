@@ -75,4 +75,5 @@
   "vim.highlightedyank.duration": 300,
   "vim.useSystemClipboard": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
 }
