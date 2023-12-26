@@ -76,5 +76,6 @@
   "vim.useSystemClipboard": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "editor.fontFamily": "JetBrains Mono"
+  "editor.fontFamily": "JetBrains Mono", 
+   "editor.cursorBlinking": "solid"
 }
