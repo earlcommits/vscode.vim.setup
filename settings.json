@@ -24,6 +24,11 @@
   "editor.cursorSurroundingLines": 8,
   "vim.normalModeKeyBindings": [
     {
+      "before": ["<Esc>"],
+      "after": ["<Esc>"],
+      "commands": ["workbench.action.files.save"]
+    },
+    {
       "before": ["<leader>", "c"],
       "commands": ["editor.action.commentLine"],
       "when": "editorTextFocus && !editorReadonly"
