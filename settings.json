@@ -1,38 +1,33 @@
 {
-"workbench.sideBar.location": "right",
- "vim.insertModeKeyBindingsNonRecursive": [
+  "workbench.sideBar.location": "right",
+  "vim.insertModeKeyBindingsNonRecursive": [
     {
-        "before": [
-            "<Esc>"
-        ],
-        "after": [
-            "<Esc>"
-        ],
-        "commands": [
-            "workbench.action.files.save"
-        ]
+      "before": ["<Esc>"],
+      "after": ["<Esc>"],
+      "commands": ["workbench.action.files.save"]
     }
-],
-    "vim.visualModeKeyBindings": [
-  {
-    "before": ["<leader>", "c"],
-    "commands": ["editor.action.commentLine"],
-    "when": "editorTextFocus && !editorReadonly"
-  }
-],
- "vim.normalModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                "<C-p>"
-            ],
-            "commands": [
-                "workbench.action.quickOpen",
-            ]
-        },
-    ],
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": ["<leader>", "c"],
+      "commands": ["editor.action.commentLine"],
+      "when": "editorTextFocus && !editorReadonly"
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<C-p>"],
+      "commands": ["workbench.action.quickOpen"]
+    }
+  ],
   "vim.smartRelativeLine": true,
   "editor.cursorSurroundingLines": 8,
   "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "c"],
+      "commands": ["editor.action.commentLine"],
+      "when": "editorTextFocus && !editorReadonly"
+    },
     {
       "before": ["g", "p", "d"],
       "commands": ["editor.action.peekDefinition"]
@@ -65,10 +60,10 @@
       "before": ["g", "p", "t"],
       "commands": ["editor.action.peekTypeDefinition"]
     },
-     {
+    {
       "before": ["<leader>", "e"],
       "commands": ["workbench.view.explorer"]
-    },
+    }
   ],
   "vim.highlightedyank.enable": true,
   "vim.highlightedyank.color": "#a9dc7660",
@@ -76,6 +71,8 @@
   "vim.useSystemClipboard": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "editor.fontFamily": "JetBrains Mono", 
-   "editor.cursorBlinking": "solid"
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.cursorBlinking": "solid",
+  "editor.fontLigatures": true
 }
